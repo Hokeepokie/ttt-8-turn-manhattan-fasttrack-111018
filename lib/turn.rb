@@ -16,8 +16,11 @@ end
 
 
 def turn 
-ask for input
-get input
+#ask for input 
+def turn (board)
+  puts "Please enter 1-9: " 
+end
+#get input
 convert input to index
 if index is valid
   make the move for index
